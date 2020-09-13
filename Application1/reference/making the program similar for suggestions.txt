@@ -1,0 +1,8 @@
+three scenarios 
+correct word
+similar word
+no word exists
+
+
+we dont want the program to undergo conditionals first which has less probability
+%s - string formatter

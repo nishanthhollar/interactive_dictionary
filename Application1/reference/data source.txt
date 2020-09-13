@@ -1,0 +1,25 @@
+data.json has all the date or the meanings for the code
+he has found the dataset of word and this is a .json file
+
+
+.json -- some say it is not a language its just set of rules on how to 
+format the data
+json follows this format 
+starts with curly brackets{ pair of keys and values }
+our values are in a pair of square brackets which means it has more than
+one values
+pairs of keys and values
+our values are inside square brackets which suggests that it has more than one values
+Ctrl + F -- is used for searching
+when we are searching we need to pass the key to be searched in double quotes
+"rain"
+
+
+Now we need to figure how to load this data into the python file 
+think what type of data file is good for this kind of data
+
+
+then go to view in the tool bar and then toggle soft wrap -- 
+it will fit the text insidde the string
+
+json has

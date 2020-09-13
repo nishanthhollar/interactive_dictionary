@@ -1,0 +1,8 @@
+We don't want the users  to get the output with brackets and comma's like lists
+
+
+The user final output should be  displayed like normal meanings
+
+Just to show the text with no code and no definition
+The ouput is not user friendly
+Interface -- get input from the  command line and get output from the command line

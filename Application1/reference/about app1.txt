@@ -1,0 +1,7 @@
+conditionals , loops iimplementing
+iterative dictionary 
+which identifies and fetches the riight meaning
+for some words it might have either 2 or 1 meaning
+the application is not case sensitive
+the application if it cant find a similar word then it says sorry cannot find the required 
+meaning to the word

@@ -1,0 +1,1 @@
+if the program finds out if the user has passed similar words then we will get to know 

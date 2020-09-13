@@ -1,0 +1,21 @@
+Loading this data into a python dictionary
+Thats the best way to load the data to access a value and a key
+
+ demonstration on how to load the data onto the python dictionary'
+
+For that we need to use json standard library
+standard - means inbuilt in json which means that we don't need to install it
+
+
+import json
+#now to load the data we use 
+data = json.load(open("data.json"))
+#here the default mode is write mode 
+data = json.load(open("json_file"))
+type(data)
+is a class dict
+when we print(data)
+we get all the data stored in json 
+data["rain"]
+data["key"] --> then we get the value for the key 
+if we input a function we get a key and then we print out the output

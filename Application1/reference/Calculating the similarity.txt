@@ -1,0 +1,80 @@
+To guess if the user has input a word with similarity there are
+algorithms to map it 
+These algorithms are in the form of standard libraries
+
+
+We can get a  list of standard of python libraries
+docs.python.org   -----> link of standard libraries that we can import to python
+
+
+
+import difflib
+
+from difflib import SequenceMatcher 
+
+SequenceMatcher is a method which is present in difflib
+
+
+SequenceMatcher(None, 
+None - is the value for the first argument IsJunk
+IsJunk --- means that if we are comparing two blocks of texts 
+if we have break lines or spaces we need to pass the function
+that ignore all this 
+
+Then we pass the string 
+
+SequenceMatcher(None, "rainn", "rain).ratio()
+when we apply the ratio method we get the 
+ratio() -- this method indicates the similarity between the two strings
+from 0.0 to 1.0
+this is the value it varies  from 0.0 to 1.0
+
+
+
+FINDING THE BEST SIMILAR WORD OUT OF THE LIST OF THE KEYS OF THE 
+DICTIONARIES
+
+
+
+We need to compare all those words with the dictionary
+
+get_close_matches
+
+using this we can compare all the possible strings of the list
+
+from difflib get_close_matches
+
+help(get_close_matches)
+// word is a sequence for which close matches are desired typically a string
+
+// Possibilities is a list of sequences against which to matches to return 
+
+
+
+
+get_close_matches(word, possibilities, n=3, cutoff=0.6)
+
+ word is a sequence for which close matches are desired (typically a
+    string).
+
+    possibilities is a list of sequences against which to match word
+    (typically a list of strings).
+
+    Optional arg n (default 3) is the maximum number of close matches to
+    return.  n must be > 0.
+
+    Optional arg cutoff (default 0.6) is a float in [0, 1].  Possibilities
+    that don't score at least that similar to word are ignored.
+
+
+there is a method of dictionaries which is called keys()
+data.keys()
+we get all the keys
+we get all the list of keys
+
+Very first word is one which has higher ratio of similarity
+to get only first word we can get  get_close_matches("rain", data.keys())[0] -- passing the index is saying that it is the first element that we want to access
+while the number of possibilites of the get_close_matches method  has 3 
+0, 1, 2
+
+ 
